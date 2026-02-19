@@ -1,0 +1,366 @@
+body.index {
+    background-color: #b38e96;
+}
+body {
+    background-color: #b38e96;
+    height: 100vh;
+}
+
+.class-container{
+    
+}
+p.index {
+    text-align: left;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+.menu {
+    background-color: #333;
+    padding: 15px;
+    list-style: none;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin: 0 20px;
+    list-style: none;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+.menu a:hover {
+    color: #ffcc00;
+}
+
+    
+.galerie-menus {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.menu-item {
+    width: 300px;
+    text-align: left;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(85, 47, 47, 0.1;)
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+    
+
+.menu-item h3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+
+.menu-details {
+    list-style: none;
+    padding: 0;
+    margin:0;
+}
+
+.menu-details li {
+    margin-bottom: 5px;
+
+}
+.btn-detail {
+    display: inline-block;
+    margin: auto;
+    padding: 8px 12px;
+    background-color: #b3b3b8;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn-detail.actif {
+    color: #c03411;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: "SN Pro", sans-serif;
+}
+body.inscription {
+    background-color: #b38e96;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+form.inscription {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+form.contact label+input {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    justify-content: center!important;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+h1{
+    font-size: 20px;
+    margin: 20px 0;
+    color:#3f3e3e;
+    font-size: 2em;
+    font-weight: 300;
+    text-transform: capitalize;
+    text-align: center;
+}
+h4 {
+    text-align: center;
+    font-size: 20px;
+}
+hr {
+    margin: 10px 0;
+    background-color: #bbbabb;
+    border: 0;
+    height: 1px;
+    width: 100%;
+}
+.name-field {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.name-field div {
+    display: flex;
+    flex-direction: column;
+}
+.name-field div {
+    width: 49%;
+}
+label {
+    margin-bottom: 6px;
+}
+
+input {
+    margin-bottom: 5px;
+    padding: 5px;
+    outline:0;
+    border: 1px solid rgba(0,0,0,0.4);
+}
+input:focus {
+    border: 1px solid #b38e96;
+}
+input[type="submit"] {
+    background-color: #b38e96;
+    color: #fff;
+    border: 1px solid #b38e96;
+    cursor: pointer;
+    margin-top: 15px;
+}
+p.inscription {
+    text-align: center;
+    margin: 5px 0;
+    font-size: 14px;
+    
+    
+}
+p a {
+    text-decoration: 0;
+    color: #b38e96;
+    
+}
+p a:hover {
+    text-decoration: underline;
+}
+p.mention-legales {
+    font-size: 14px;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.image-box {
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-image: url('image/sache-menu-classique.jpg');
+    background-size: cover;
+    background-position: center;
+    text-decoration: none;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 15px;
+}
+.image-box h2 {
+    margin: 0;
+    font-size: 18px;
+}
+.image-box p {
+    margin: 5px 0 0;
+    font-size: 14px;
+}
+
+.cards {
+    display: flex;
+    gap: 16px;
+
+}
+
+
+.card {
+    width: 325px;
+    display: flex;
+    border-radius: 8px;
+    background: #524848;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin: 20px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    justify-content: center;
+    gap: 20px;
+}
+.card {
+    width: 325px;
+    background-color: #524848 ;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin: 20px;
+    justify-content: center;
+}
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.card-content {
+    padding: 16px;
+}
+.card-content h3 {
+    font-size: 28px;
+    margin-bottom: 8px;
+    padding: 15px;
+}
+.card-content p {
+    color: #b38e96;
+    font-size: 15px;
+    line-height: 1.3;
+}
+.card-content .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #b38e96;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 16px;
+}
+
+section {
+    padding: 0px;
+}
+.row {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.row .col50 {
+    position: relative;
+    width: 48%;
+    justify-content: center;
+    align-items: center;
+}
+.row .col50 h3 {
+    margin-bottom: 20px;
+}
+.titre-texte {
+    color:#333;
+    font-size: 2em;
+    font-weight: 300;
+    text-transform:capitalize;
+}
+.row .col50 img {
+    height: 450px;
+    width: 600px;
+    position: relative;
+}
+#footerPage {
+    padding-bottom: 0rem!important;
+}
